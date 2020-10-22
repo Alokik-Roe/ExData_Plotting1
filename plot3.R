@@ -38,7 +38,7 @@ with(data1,{plot(Sub_metering_1~dateTime, type = "l",
   
 })
 legend("topright", col=c("black", "red", "blue"), lwd=c(1,1,1), 
-       c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+       c("Sub_metering 1", "Sub_metering 2", "Sub_metering 3"))
 
 ## Copy my plot to a PNG file
 dev.copy(png, file = "plot3.png")
